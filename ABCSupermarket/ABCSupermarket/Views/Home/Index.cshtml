@@ -1,0 +1,40 @@
+﻿@model ABCSupermarket.Models.Supermarket
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<br />
+<div>
+    <a href="@Url.Action("Get", "Home")">Item Details</a>
+</div>
+<div>
+    @using (Html.BeginForm("Index", "Home", new { id = Model.RowKey }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <fieldset>
+            <legend>Item</legend>
+            <body style="background-color:palegoldenrod ;">
+                <ol>
+                    <li style="padding-left:1em">
+                        <p style="font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+                            <label>Item name and description</label>
+                        </p>
+                        <input type="text" name="itemName" required="required" value="@Model.itemName" />
+                    </li>
+                    <li style="padding-left:1em">
+                        <p style="font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+                            <label>Item Price</label>
+                        </p>
+                        <input type="text" name="ItemPrice" required="required" value="@Model.itemPrice" />
+                    </li>
+                    <li style=" padding-left: 1em">
+                        <p style="font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+                            <label>Item Image</label>
+                        </p>
+                        <input type="file" name="uploadFile" />
+                    </li>
+                </ol>
+                <input type="submit" value="Submit" />
+            </body>
+        </fieldset>
+    }
+</div>

@@ -1,0 +1,41 @@
+﻿@model List<ABCSupermarket.Models.Supermarket>
+@{
+    ViewBag.Title = "Get";
+}
+<br />
+<br />
+<div>
+    <a href="@Url.Action("Index", "Home")">Add new item</a>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item image</th>
+                <th>Item name and description</th>
+                <th>Item Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ABCSupermarket.Models.Supermarket SupermarketObj in Model)
+            {
+                <tr>
+                    <td>
+                        <img class="pictures" src="@SupermarketObj.itemImage" alt="@SupermarketObj.itemImage" />
+                    </td>
+                    <td>@SupermarketObj.itemName</td>
+                    <td>@SupermarketObj.itemPrice</td>
+                    <td>
+                        <span>
+                            @Html.ActionLink("Edit", "Index", "Home", new { id = SupermarketObj.RowKey }, new { })
+                    </span>
+                    <span>
+                        @Html.ActionLink("Delete", "Delete", "Home", new { id = SupermarketObj.RowKey }, new { })
+                </span>
+            </td>
+        </tr>
+    }
+        </tbody>
+    </table>
+</div>
+
