@@ -1,0 +1,38 @@
+﻿@model IEnumerable<DomingoADG.Models.JobTypeModel>
+
+<p>
+    @Html.ActionLink("Add new JobType", "CreateJobType")
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                Job Type
+            </th>
+            <th scope="col">
+                Daily Rate
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @Html.HiddenFor(modelItem => item.job_type)
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.job_type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.daily_rate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.job_type })
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>

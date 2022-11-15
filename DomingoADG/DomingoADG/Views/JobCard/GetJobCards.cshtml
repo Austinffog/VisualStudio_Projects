@@ -1,0 +1,52 @@
+﻿@model IEnumerable<DomingoADG.Models.JobCardModel>
+
+<p>
+    @Html.ActionLink("Add new JobCard", "CreateJobCards")
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                Job Card No
+            </th>
+            <th scope="col">
+                Job Type
+            </th>
+            <th scope="col">
+                No Of Days
+            </th>
+            <th scope="col">
+                Material Used
+            </th>
+            <th scope="col">
+                Customer No
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @Html.HiddenFor(modelItem => item.job_card_no)
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.job_card_no)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.job_type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.no_of_days)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.material_used)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_no)
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

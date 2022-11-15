@@ -1,0 +1,43 @@
+﻿@model IEnumerable<DomingoADG.Models.EmployeeModel>
+
+<p>
+    @Html.ActionLink("Create Employee", "CreateEmployee")
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                job_card_no
+            </th>
+            <th>
+                employee_no
+            </th>
+            <th>
+                employee_name
+            </th>
+            <th></th>
+        </tr>
+        </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @Html.HiddenFor(modelItem => item.job_card_no)
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.job_card_no)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.employee_no)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.employee_name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.job_card_no}) 
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

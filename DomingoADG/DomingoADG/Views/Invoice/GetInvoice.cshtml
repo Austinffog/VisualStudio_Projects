@@ -1,0 +1,89 @@
+﻿@model IEnumerable<DomingoADG.Models.InvoiceModel>
+
+<p>
+    @Html.ActionLink("Create Invoice", "CreateInvoice")
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                job_card_no
+            </th>
+            <th scope="col">
+                customer_name
+            </th>
+            <th scope="col">
+                address
+            </th>
+            <th scope="col">
+                job_type
+            </th>
+            <th scope="col">
+                employee_no
+            </th>
+            <th scope="col">
+                employee_name
+            </th>
+            <th scope="col">
+                material_used
+            </th>
+            <th scope="col">
+                customer_no
+            </th>
+            <th scope="col">
+                sub_total
+            </th>
+            <th scope="col">
+                vat
+            </th>
+            <th scope="col">
+                total
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @Html.HiddenFor(modelItem => item.job_card_no)
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.job_card_no)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.job_type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.employee_no)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.employee_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.material_used)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_no)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.sub_total)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.vat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.total)
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
