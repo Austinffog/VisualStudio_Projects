@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<callNumbers>
+  
+  <callNumber category="000" title="Generalities">
+    <number>090</number>
+    <description>Manuscripts and rare books</description>
+    <number>091</number>
+    <description>Manuscripts</description>
+    <number>092</number>
+    <description>Block books</description>
+    <number>093</number>
+    <description>Incunabula</description>
+    <number>094</number>
+    <description>Printed books</description>
+    <number>095</number>
+    <description>Books notable for bindings</description>
+    <number>096</number>
+    <description>Books notable for illustrations</description>
+    <number>097</number>
+    <description>Books notable for ownership or origin</description>
+    <number>098</number>
+    <description>Prohibited works, forgeries, hoaxes</description>
+    <number>099</number>
+    <description>Books notable for format</description>
+  </callNumber>
+
+  <callNumber category="100" title="Philosophy and psychology">
+    <number>101</number>
+    <description>Theory of philosophy</description>
+    <number>110</number>
+    <description>Metaphysics</description>
+    <number>120</number>
+    <description>Epistemology, causation, humankind</description>
+    <number>130</number>
+    <description>Paranormal phenomena</description>
+    <number>140</number>
+    <description>Specific philosophical schools</description>
+    <number>150</number>
+    <description>Psychology</description>
+    <number>160</number>
+    <description>Logic</description>
+    <number>170</number>
+    <description>Ethics (moral philosophy)</description>
+    <number>180</number>
+    <description>Ancient, medieval, oriental philosophy</description>
+    <number>190</number>
+    <description>Modern western philosophy</description>
+  </callNumber>
+  
+  <callNumber category="200" title="Religion">
+    <number>220</number>
+    <description>Bible</description>
+    <number>211</number>
+    <description>Old Testament</description>
+    <number>222</number>
+    <description>Historical books of Old Testament</description>
+    <number>223</number>
+    <description>Poetic books of Old Testament</description>
+    <number>224</number>
+    <description>Prophetic books of Old Testament</description>
+    <number>225</number>
+    <description>New Testament</description>
+    <number>226</number>
+    <description>Gospels and Acts</description>
+    <number>227</number>
+    <description>Epistles</description>
+    <number>228</number>
+    <description>Revelation (Apocalypse)</description>
+    <number>229</number>
+    <description>Apocrypha and pseudepigrapha</description>
+  </callNumber>
+  
+  <callNumber category="300" title="Social Sciences">
+    <number>302</number>
+    <description>Social Interaction</description>
+    <number>323</number>
+    <description>Civil and Political Rights</description>
+    <number>327</number>
+    <description>International relations</description>
+    <number>336</number>
+    <description>Public finance</description>
+    <number>346</number>
+    <description>Private law</description>
+    <number>355</number>
+    <description>Military science</description>
+    <number>364</number>
+    <description>Criminology</description>
+    <number>376</number>
+    <description>Education of Women</description>
+    <number>385</number>
+    <description>Railroad transportation</description>
+    <number>398</number>
+    <description>Folklore</description>
+  </callNumber>
+
+  <callNumber category="400" title="Language">
+    <number>410</number>
+    <description>Linguistics</description>
+    <number>420</number>
+    <description>English and Anglo-Saxon languages</description>
+    <number>430</number>
+    <description>Germanic languages (German)</description>
+    <number>440</number>
+    <description>Romance languages (French)</description>
+    <number>450</number>
+    <description>Italian, Romanian, Rhaeto_Romanic</description>
+    <number>460</number>
+    <description>Spanish and Portuguese languages</description>
+    <number>470</number>
+    <description>Italic Languages (Latin)</description>
+    <number>480</number>
+    <description>Hellenic languages (Classical Greek)</description>
+    <number>490</number>
+    <description>Other languages</description>
+    <number>499</number>
+    <description>Miscellaneous languages</description>
+  </callNumber>
+
+  <callNumber category="500" title="Natural sciences and mathematics">
+    <number>505</number>
+    <description>Serial publications</description>
+    <number>515</number>
+    <description>Analysis</description>
+    <number>525</number>
+    <description>Earth (Astronomical geography)</description>
+    <number>535</number>
+    <description>Light and paraphotic phenomena</description>
+    <number>545</number>
+    <description>Quantitative analyses</description>
+    <number>555</number>
+    <description>Earth sciences of Asia</description>
+    <number>565</number>
+    <description>Earth sciences of Asia</description>
+    <number>575</number>
+    <description>Evolution and genetics</description>
+    <number>585</number>
+    <description>Gymnospermae (Pinophyte)</description>
+    <number>595</number>
+    <description>Other invertebrates</description>
+  </callNumber>
+
+  <callNumber category="600" title="Technology (Applied sciences)">
+    <number>601</number>
+    <description>Philosophy and theory</description>
+    <number>610</number>
+    <description>Medical sciences Medicine</description>
+    <number>620</number>
+    <description>Engineering and allied operations</description>
+    <number>630</number>
+    <description>Agriculture</description>
+    <number>640</number>
+    <description>Home economics and family living</description>
+    <number>650</number>
+    <description>Management and auxiliary services</description>
+    <number>660</number>
+    <description>Chemical engineering</description>
+    <number>670</number>
+    <description>Manufacturing</description>
+    <number>680</number>
+    <description>Manufacture for specific uses</description>
+    <number>690</number>
+    <description>Buildings</description>
+  </callNumber>
+
+  <callNumber category="700" title="The arts">
+    <number>706</number>
+    <description>Organizations and management</description>
+    <number>714</number>
+    <description>Water features</description>
+    <number>717</number>
+    <description>Structures</description>
+    <number>729</number>
+    <description>Design and decoration</description>
+    <number>738</number>
+    <description>Ceramic arts</description>
+    <number>746</number>
+    <description>Textile arts</description>
+    <number>752</number>
+    <description>Color</description>
+    <number>758</number>
+    <description>Other subjects</description>
+    <number>767</number>
+    <description>Etching and drypoint</description>
+    <number>774</number>
+    <description>Holography</description>
+  </callNumber>
+  
+  <callNumber category="800" title="Literature and rhetoric">
+    <number>810</number>
+    <description>American literature in English</description>
+    <number>820</number>
+    <description>English literature</description>
+    <number>830</number>
+    <description>Literature of Germanic language</description>
+    <number>840</number>
+    <description>Literatures of Romance language</description>
+    <number>850</number>
+    <description>Italian, Romanian, Rhaeto-Romanic Literatures</description>
+    <number>860</number>
+    <description>Spanish and Portuguese literatures</description>
+    <number>870</number>
+    <description>Italic literatures (Latin) </description>
+    <number>880</number>
+    <description>Hellenic literatures (Classical Greek)</description>
+    <number>890</number>
+    <description>Literatures of other languages</description>
+    <number>899</number>
+    <description>Other Literaturest</description>
+  </callNumber>
+
+  <callNumber category="900" title="Geography and history">
+    <number>901</number>
+    <description>Philosophy and theory </description>
+    <number>903</number>
+    <description>Dictionaries and encyclopedias</description>
+    <number>913</number>
+    <description>Ancient world</description>
+    <number>933</number>
+    <description>History of ancient world Palestine</description>
+    <number>943</number>
+    <description>General history of Europe Central Europe Germany</description>
+    <number>953</number>
+    <description>General history of Asia Arabian Peninsula and adjacent areas</description>
+    <number>963</number>
+    <description>General history of Africa Ethiopia</description>
+    <number>973</number>
+    <description>General history of North America United States </description>
+    <number>983</number>
+    <description>General history of South America Chile</description>
+    <number>993</number>
+    <description>General history of other areas New Zealand</description>
+  </callNumber>
+  
+</callNumbers>
+
+<!--Reference List
+Microsoft Doca. 2021. How to: Create and edit an XSD schema file. [Online]. 
+Available at: https://docs.microsoft.com/en-us/visualstudio/xml-tools/how-to-create-and-edit-an-xsd-schema-file?view=vs-2022 [Accessed 6 December 2021].
+W3Schools. 2021. XML Tree. [Online]. Available at: https://www.w3schools.com/ml/xml_tree.asp [Accessed 6 December 2021].
+-->
+
+<!-- Call Numbers
+000 Generalities 
+
+-	090 Manuscripts & rare books 
+
+-	091 Manuscripts 
+
+-	092 Block books 
+
+-	093 Incunabula 
+
+-	094 Printed books 
+
+-	095 Books notable for bindings 
+
+-	096 Books notable for illustrations 
+
+-	097 Books notable for ownership or origin 
+
+-	098 Prohibited works, forgeries, hoaxes 
+
+-	099 Books notable for format 
+
+100 Philosophy & psychology 
+
+-	101 Theory of philosophy 
+
+-	110 Metaphysics 
+
+-	120 Epistemology, causation, humankind 
+
+-	130 Paranormal phenomena 
+
+-	140 Specific philosophical schools 
+
+-	150 Psychology 
+
+-	160 Logic 
+
+-	170 Ethics (moral philosophy) 
+
+-	180 Ancient, medieval, oriental philosophy 
+
+-	190 Modern western philosophy 
+
+200 Religion 
+
+-	220 Bible 
+
+-	221 Old Testament 
+
+-	222 Historical books of Old Testament 
+
+-	223 Poetic books of Old Testament 
+
+-	224 Prophetic books of Old Testament 
+
+-	225 New Testament 
+
+-	226 Gospels & Acts 
+
+-	227 Epistles 
+
+-	228 Revelation (Apocalypse) 
+
+-	229 Apocrypha & pseudepigrapha 
+
+300 Social sciences 
+
+-	302 Social interaction 
+
+-	323 Civil & political rights 
+
+-	327 International relations 
+
+-	336 Public finance 
+
+-	346 Private law 
+
+-	355 Military science 
+
+-	364 Criminology 
+
+-	376 Education of women 
+
+-	385 Railroad transportation 
+
+-	398 Folklore 
+
+400 Language 
+
+-	410 Linguistics 
+
+-	420 English & Anglo-Saxon languages 
+
+-	430 Germanic languages (German) 
+
+-	440 Romance languages (French) 
+
+-	450 Italian, Romanian, Rhaeto-Romanic 
+
+-	460 Spanish & Portuguese languages 
+
+-	470 Italic languages (Latin) 
+
+-	480 Hellenic languages (Classical Greek) 
+
+-	490 Other languages 
+
+-	499 Miscellaneous languages 
+
+500 Natural sciences & mathematics 
+
+-	505 Serial publications 
+
+-	515 Analysis 
+
+-	525 Earth (Astronomical geography) 
+
+-	535 Light & paraphotic phenomena 
+
+-	545 Quantitative analyses 
+
+-	555 Earth sciences of Asia 
+
+-	565 Other fossil invertebrates 
+
+-	575 Evolution & genetics 
+
+-	585 Gymnospermae (Pinophyte) 
+
+-	595 Other invertebrates 
+
+600 Technology (Applied sciences) 
+
+-	601 Philosophy & theory 
+
+-	610 Medical sciences Medicine 
+
+-	620 Engineering & allied operations 
+
+-	630 Agriculture 
+
+-	640 Home economics & family living 
+
+-	650 Management & auxiliary services 
+
+-	660 Chemical engineering 
+
+-	670 Manufacturing 
+
+-	680 Manufacture for specific uses 
+
+-	690 Buildings 
+
+700 The arts 
+
+-	706 Organizations & management 
+
+-	714 Water features 
+
+-	717 Structures 
+
+-	729 Design & decoration 
+
+-	738 Ceramic arts 
+
+-	746 Textile arts 
+
+-	752 Color 
+
+-	758 Other subjects 
+
+-	767 Etching & drypoint 
+
+-	774 Holography 
+
+800 Literature & rhetoric 
+
+-	810 American literature in English 
+
+-	820 English literature 
+
+-	830 Literature of Germanic language 
+
+-	840 Literatures of Romance language 
+
+-	850 Italian, Romanian, Rhaeto-Romanic Literatures 
+
+-	860 Spanish & Portuguese literatures 
+
+-	870 Italic literatures (Latin) 
+
+-	880 Hellenic literatures (Classical Greek) 
+
+-	890 Literatures of other languages 
+
+-	899 Other Literatures 
+
+900 Geography & history 
+
+-	901 Philosophy & theory 
+
+-	903 Dictionaries & encyclopedias 
+
+-	913 Ancient world 
+
+-	933 History of ancient world Palestine 
+
+-	943 General history of Europe Central Europe Germany 
+
+-	953 General history of Asia Arabian Peninsula & adjacent areas 
+
+-	963 General history of Africa Ethiopia 
+
+-	973 General history of North America United States 
+
+-	983 General history of South America Chile 
+
+-	993 General history of other areas New Zealand 
+
+-->
